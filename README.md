@@ -48,6 +48,4 @@ Then:
 3. Enter a key when prompted
 4. The processed image is saved with a descriptive suffix
 
-## Note
 
-This project is for demonstration purposes and is not intended for secure encryption.
