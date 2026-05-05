@@ -22,11 +22,15 @@ Encrypted image (XOR with key = 255)
 
 <img src="Image_20260503_222600_xor_encrypted.png" width="420"/>
 
+## Code Snapshot
+
+<img src="3.jpeg" width="600"/>
+
 ## How It Works
 
 * XOR applies a bitwise operation to each color channel. Applying the same key again restores the original image.
-* Addition and subtraction shift pixel values modulo 256. Using the same key reverses the operation.
-* Pixel swapping exchanges adjacent pixels. Applying the operation twice restores the original (except the last pixel if the count is odd).
+* Addition and subtraction shift pixel values modulo 256.
+* Pixel swapping rearranges adjacent pixels and is reversible.
 
 ## Requirements
 
@@ -46,6 +50,5 @@ Then:
 1. Enter the image path
 2. Select an operation
 3. Enter a key when prompted
-4. The processed image is saved with a descriptive suffix
-
+4. The processed image is saved automatically
 
